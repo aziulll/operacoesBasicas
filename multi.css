@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 ;
+    background-color: #000; 
+}
+header {
+background-color: #000;
+}
+header h1 {
+    font-size: 23px;
+    padding: 10px;
+    margin: 10px;
+}
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 11px;
+    right: 0;
+}
+nav li {
+    display: inline-block;
+    margin: 0 0 20px 20px;
+}
+nav a {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    color:#ccc
+}
+
+nav ul li a:hover {
+    color: pink; 
+}
+
+main {
+    display: flex;
+    padding: 40px;
+}
+img {
+    width: 450px;
+    height: 450px;
+}
+
+.father {
+    width: 100%;
+    padding: 50px 50px ;
+    max-width: 100%;
+    height: 400px;
+}
+
+.son {
+  flex-direction: column;
+  border-radius: 16px;
+  width: 250px;
+  height: 300px;
+  background-color: white;
+  padding: 45px;
+  text-align: center;
+  margin-left: 300px;
+}
+
+label {
+    margin: 5px;
+    padding: 0;
+    text-align: center;
+}
+
+#numberOne, #numberTwo{
+    width: 200px;
+    height: 20px;
+    border: none;
+    border-radius: 4px;
+    background-color:rgb(179, 186, 207);
+    margin: 5px;
+    
+ }
+ 
+button {
+    width: 200px;
+    height: 30px;
+    margin: 25px;
+    border: none;
+    border-radius: 24px;
+    color: #fff;
+    font-size: 15px;
+    background-color: rgb(240, 158, 229);
+}
+
+button:hover {
+    background-color: rgb(214, 116, 201);
+}
+
+
+
+footer {
+    background-color: #000 ;
+    width: 100%;
+    height: 107px;
+    color: #fff;
+    padding: 20px 0 0 0;
+    text-align: center;
+}
+
